@@ -7,6 +7,9 @@ body{
     background-image: url(signup_background.jpg);
     background-size: 1500px 700px;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin:0px 0px 0px 0px;
     }
     .barefoot{
         color:#ff6666;
@@ -49,7 +52,6 @@ body{
         background-color: #ffffff;
         position: absolute;
         border:1px solid white;
-        box-shadow:0px 0px 10px 0px rgba(0,0,0,0.19);
         outline:none;
         left: 5%;
         opacity: 1;
@@ -64,7 +66,7 @@ body{
         top:7%;
         outline: none;
         border: 1px solid white;
-        left:40%
+        left:45%
     }
     .email{
         width: 430px;
@@ -139,7 +141,7 @@ body{
         border-radius: 20px;
         background-color: #336699;
         position: absolute;
-        left: 5%;
+        left: 4%;
         top:63%;
         color: #ffffff;
         outline: none;
@@ -153,11 +155,11 @@ body{
     border-radius: 20px;
     background-color: #ffffff;
     position: absolute;
-    left: 40%;
+    left: 45%;
     top:63%;
     color: #000000;
     outline: none;
-        border: 1px solid white;
+    border: 1px solid white;
 } 
 .gtx{
     position: absolute;
@@ -172,14 +174,16 @@ body{
 .already{
     color: #ffffff;
     position: absolute;
-    top:75%;
-    left:45%;
+    top:72%;
+    left:16%;
+    font-size: 12px;
 }
 .log{
 color: #ff6666;
 position: absolute;
-top: 75%;
-left:59%;
+top: 72%;
+left:43%;
+font-size: 12px;
 }
 .fbtx{
     position: absolute;
@@ -190,4 +194,17 @@ left:59%;
     position: absolute;
     top:10%;
     left:6%
+}
+@media only screen and (max-width: 1000px){
+   .join{
+        border: 0,5px solid black;
+        background-color: #009999;
+        opacity: 1;
+        height: 1000px;
+        position: absolute;
+        right: 60%;
+        left: 10%;
+        top:150px
+        
+    }
 }
